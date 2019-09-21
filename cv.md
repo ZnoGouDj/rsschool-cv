@@ -26,3 +26,19 @@ I decided to deal with this sphere because I wanted to do something actual and t
 ## Skills
 
 I have the ordinary beginner skills in **HTML5**, **CSS**, **JavaScript**.
+
+
+
+## Code examples
+
+The last month I spent biggest part of my life solving codewars challenges.
+And the latest challenge was **7kyu-square-every-digit**:
+
+function squareDigits(num) {
+    let numArr = Array.from(num.toString());
+    let arr = numArr.map(num => Math.pow(num, 2));
+    return Number(arr.join(''));
+}
+
+
+
