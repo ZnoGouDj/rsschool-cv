@@ -50,3 +50,13 @@ Honestly, I`ve got **very** little experience, for example recently we made [nav
 
 
 
+## Education 
+
+I started to learn JS in the army two months ago. I used my phone to solve codewars challenges, and my experienced friend who also was in the army was trying to taught me some theoretical foundations. When we finally left army, I used a lot of resources to get a programming skill, but the most significant for me was:
+*codewars.com
+*learn.freecodecamp.org
+*learn.javascript.ru
+*and probably couple YouTube videos
+
+
+
