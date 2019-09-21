@@ -59,4 +59,8 @@ I started to learn JS in the army two months ago. I used my phone to solve codew
 * and probably couple YouTube videos
 
 
+## English
+
+I think the major English practice I had in my life was one year ago. For half a year minimum I spoke English with my colleague who came from Israel to work. And I was the only person in the office who could talk to him without Google translator. But most of the time I talked with this guy out of work, so the experience was quite intense and I appreciate it.
+
 
