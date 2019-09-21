@@ -44,3 +44,9 @@ function squareDigits(num) {
 
 
 
+## Experience
+
+Honestly, I`ve got **very** little experience, for example recently we made [naval battle game](https://github.com/marengohue/irl-microhack-2019) with friends.
+
+
+
