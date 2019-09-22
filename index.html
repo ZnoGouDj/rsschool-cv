@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Resume</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="header-title">My resume</h1>
+    </header>
+    <main class="container">
+        <section class="section">
+            <h2 class="section-title">Introduction</h2>
+            <p class="section-description">
+                Hello my name is Egor Sorokin.
+            </p>
+            <img class="section-img" src="img/photo.jpg" alt="My terrible photo" style="width: 400px; height: 400px;">
+            <p class="section-description">
+                My contact data:
+                <i class="section-description--italic">
+                    phone - +375259591227, email - znogoud3@gmail.com
+                </i>
+            </p>
+        </section>
+        <section class="section">
+            <h2 class="section-title">My goals</h2>
+            <p class="section-description">
+                I decided to deal with this sphere because I wanted to do something actual and to become good at this.
+                Mastering a programming language is pretty serious challenge for me. I like this feeling when you study
+                something completely unfamiliar and unusual. I already noticed how I became much more confident dealing
+                with programming tasks. And I really want to check my skills six months later when these courses will be
+                completed.
+            </p>
+        </section>
+        <section class="section">
+            <h2 class="section-title">Skills</h2>
+            <p class="section-description">
+                I have the ordinary beginner skills in <strong>HTML5, CSS, JavaScript</strong>.
+            </p>
+        </section>
+        <section class="section">
+            <h2 class="section-title">Code examples</h2>
+            <h3 class="code-container-title">
+                The last month I spent biggest part of my life solving codewars challenges. And the latest challenge was
+                <strong>7kyu-square-every-digit</strong>:
+            </h3>
+            <div class="code-container">
+                <div class="code-container-item">
+                    <code class="item-code">
+                        <pre>
+    function squareDigits(num) {
+    let numArr = Array.from(num.toString());
+    let arr = numArr.map(num => Math.pow(num, 2));
+    return Number(arr.join(''));
+    }                        </pre>
+                    </code>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <h2 class="section-title">Experience</h2>
+            <p class="section-description">
+                Honestly, I`ve got very little experience, for example recently we made <a class="section-link"
+                    href="https://github.com/marengohue/irl-microhack-2019">naval battle</a> game with friends.
+            </p>
+        </section>
+        <section class="section">
+            <h2 class="section-title">Education</h2>
+            <p class="section-description">
+                I started to learn JS in the army two months ago. I used my phone to solve codewars challenges, and my
+                experienced friend who also was in the army was trying to taught me some theoretical foundations. When
+                we finally left army, I used a lot of resources to get a programming skill, but the most significant for
+                me was:
+                <ol class="section-description">
+                    <li>codewars.com</li>
+                    <li>learn.freecodecamp.org</li>
+                    <li>learn.javascript.ru</li>
+                    <li>and probably couple YouTube videos</li>
+                </ol>
+            </p>
+        </section>
+        <section class="section">
+            <h2 class="section-title">English</h2>
+            <p class="section-description">
+                I think the major English practice I had in my life was one year ago. One guy came from Israel to work
+                with us. He didn't know a single word in Russian, but fortunately he knew English well, so at least for
+                half a year I was the only person in the office who could talk to him without Google translator. But
+                most of the time I talked with this guy out of work, so the experience was quite intense and I
+                appreciate it.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p class="copy">&copy; 2019 made by Egor Sorokin</p>
+    </footer>
+</body>
+
+</html>
