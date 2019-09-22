@@ -67,3 +67,9 @@ body {
 pre {
 	line-height: 1.4;
 }
+
+.copy {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+} 
