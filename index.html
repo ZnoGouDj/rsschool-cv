@@ -19,7 +19,7 @@
             <p class="section-description">
                 Hello my name is Egor Sorokin.
             </p>
-            <img class="section-img" src="img/photo.jpg" alt="My terrible photo">
+            <img class="section-img" src="img/photo.jpg" alt="My terrible photo" style="width: 400px; height: 400px;">
             <p class="section-description">
                 My contact data:
                 <i class="section-description--italic">
@@ -40,26 +40,25 @@
         <section class="section">
             <h2 class="section-title">Skills</h2>
             <p class="section-description">
-                I have the ordinary beginner skills in HTML5, CSS, JavaScript.
+                I have the ordinary beginner skills in <strong>HTML5, CSS, JavaScript</strong>.
             </p>
         </section>
         <section class="section">
             <h2 class="section-title">Code examples</h2>
             <h3 class="code-container-title">
                 The last month I spent biggest part of my life solving codewars challenges. And the latest challenge was
-                <bold>7kyu-square-every-digit</bold>:
+                <strong>7kyu-square-every-digit</strong>:
             </h3>
             <div class="code-container">
                 <div class="code-container-item">
                     <code class="item-code">
-                                <pre>
-                                        function squareDigits(num) {
-                                            let numArr = Array.from(num.toString());
-                                            let arr = numArr.map(num => Math.pow(num, 2));
-                                            return Number(arr.join(''));
-                                        }
-                                    </pre>
-                                </code>
+                        <pre>
+    function squareDigits(num) {
+    let numArr = Array.from(num.toString());
+    let arr = numArr.map(num => Math.pow(num, 2));
+    return Number(arr.join(''));
+    }                        </pre>
+                    </code>
                 </div>
             </div>
         </section>
@@ -67,7 +66,7 @@
             <h2 class="section-title">Experience</h2>
             <p class="section-description">
                 Honestly, I`ve got very little experience, for example recently we made <a class="section-link"
-                    href="https://github.com/marengohue/irl-microhack-2019">naval battle</a>game with friends.
+                    href="https://github.com/marengohue/irl-microhack-2019">naval battle</a> game with friends.
             </p>
         </section>
         <section class="section">
@@ -77,12 +76,12 @@
                 experienced friend who also was in the army was trying to taught me some theoretical foundations. When
                 we finally left army, I used a lot of resources to get a programming skill, but the most significant for
                 me was:
-                <ul>
+                <ol class="section-description">
                     <li>codewars.com</li>
                     <li>learn.freecodecamp.org</li>
                     <li>learn.javascript.ru</li>
                     <li>and probably couple YouTube videos</li>
-                </ul>
+                </ol>
             </p>
         </section>
         <section class="section">
@@ -99,9 +98,6 @@
     <footer>
         <p class="copy">&copy; 2019 made by Egor Sorokin</p>
     </footer>
-</body>
-
-</html>
 </body>
 
 </html>
