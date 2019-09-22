@@ -45,3 +45,25 @@ body {
 .section-description--italic {
 	font-style: italic;
 }
+
+.code-container-title {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.code-container-item {
+	width: 50%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	padding: 20px;
+	background: rgb(219, 208, 208);
+}
+
+.item-title {
+	margin-bottom: 20px;
+	font-weight: 600;
+}
+
+pre {
+	line-height: 1.4;
+}

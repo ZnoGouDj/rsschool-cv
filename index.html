@@ -36,5 +36,25 @@
                 <p class="section-description">
                     I have the ordinary beginner skills in HTML5, CSS, JavaScript.
                 </p>
+            </section>
+            <section class="section">
+                    <h2 class="section-title">Code examples</h2>
+                    <h3 class="code-container-title">
+                            The last month I spent biggest part of my life solving codewars challenges. And the latest challenge was <bold>7kyu-square-every-digit</bold>:
+                    </h3>
+                    <div class="code-container">
+                        <div class="code-container-item">
+                            <code class="item-code">
+                                <pre>
+                                        function squareDigits(num) {
+                                            let numArr = Array.from(num.toString());
+                                            let arr = numArr.map(num => Math.pow(num, 2));
+                                            return Number(arr.join(''));
+                                        }
+                                    </pre>
+                                </code>
+                            </div>
+                        </div>
+                    </section>
 </body>
 </html>
