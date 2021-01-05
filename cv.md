@@ -16,50 +16,50 @@ My contact data:
 
 
 
-
-## My goals
-
-I decided to deal with this sphere because I wanted to do something actual and to become good at this. Mastering a programming language is pretty serious challenge for me. I like this feeling when you study something completely unfamiliar and unusual. I already noticed how I became much more confident dealing with programming tasks. And I really want to check my skills six months later when these courses will be completed.
-
-
-
 ## Skills
 
-I have the ordinary beginner skills in **HTML5**, **CSS**, **JavaScript**.
+I have Junior skills in **HTML5**, **CSS**, **JavaScript** and **jQuery**. (I use **JavaScript** and **jQuery** in my working routine mostly now). I also try to master **React** every day.
 
 
 
 ## Code examples
 
-The last month I spent biggest part of my life solving codewars challenges.
-And the latest challenge was **7kyu-square-every-digit**:
+In our job we need to use something like this in a daily basis:
 
-```javascript
-function squareDigits(num) {
-    let numArr = Array.from(num.toString());
-    let arr = numArr.map(num => Math.pow(num, 2));
-    return Number(arr.join(''));
-}
+```jQuery
+if (jQuery('.omega .option_title:contains(Color)').length > 0) {
+  [jQuery('.omega .option_title:contains(Color)').parent().find('input:checked').length > 0
+    ? jQuery('.omega .option_title:contains(Color)').parent().find('input:checked').val().trim()
+    : 'Select Color',
+  jQuery.makeArray(jQuery('.omega .option_title:contains(Color)').parent().find('input').map(function (i, e) {
+    return jQuery(e).val().trim();
+  }))];
+} else['No Color', ['No Color']];
 ```
 
 
 
 ## Experience
 
-Honestly, I`ve got **very** little experience, for example recently we made [naval battle game](https://github.com/marengohue/irl-microhack-2019) with friends.
+I finished Rolling Scopes School (JavaScript/Front-end) => https://app.rs.school/certificate/sqp8jn58 a year ago.
+For half a year I have been working in Shoptagr company using JavaScript and jQuery.
+Also trying to develop React, but haven't used react in commercial development yet. 
 
 
 
 ## Education 
 
-I started to learn JS in the army two months ago. I used my phone to solve codewars challenges, and my experienced friend who also was in the army was trying to taught me some theoretical foundations. When we finally left army, I used a lot of resources to get a programming skill, but the most significant for me was:
+I started learning JS 1,5 years ago in the army. I used my phone to solve codewars challenges, and my experienced friend who was also lucky enough to be in the army  helped me to understand JS basics. When we finally left army, I used a lot of resources to get a programming skill, but the most significant for me was:
 * codewars.com
 * learn.freecodecamp.org
 * learn.javascript.ru
-* and probably couple YouTube videos
+* RSSchool courses
+* udemy courses
 
 
 ## English
 
-I think the major English practice I had in my life was one year ago. One guy came from Israel to work with us. He didn't know a single word in Russian, but fortunately he knew English well, so at least for half a year I was the only person in the office who could talk to him without Google translator. But most of the time I talked with this guy out of work, so the experience was quite intense and I appreciate it.
+I think the major English practice I had in my life was one year ago. One guy came from Israel to work with us. He didn't know a single word in Russian, but fortunately he knew English well, so at least for half a year I was the only person in the office who could talk to him without Google translator. But most of the time I talked with this guy out of work, so the experience was quite intense and I appreciate it. 
+I worked in a Customer Servise in SoftSwiss for half a year using English a lot. 
+I also attend English courses twice a week currently.
 
