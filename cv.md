@@ -51,3 +51,38 @@ Loader, React Pagination)_ [Deploy](https://pizza-1995.netlify.app/) /
 [Code](https://github.com/ZnoGouDj/pizza-typescript)
 
 ---
+
+## Skills
+
+- React
+- Redux
+- JavaScript
+- HTML/CSS
+- Node.js
+- TypeScript
+- Jira/Azure/YouTrack
+- English **B2**
+
+---
+
+### Code Example
+
+```ts
+interface List {
+  string: number;
+}
+
+function cakes(recipe: List, available: List): number {
+  let amount = Infinity;
+
+  for (let key in recipe) {
+    if (!available[key]) return 0;
+
+    if (Math.floor(available[key] / recipe[key]) < amount) {
+      amount = Math.floor(available[key] / recipe[key]);
+    }
+  }
+
+  return amount;
+}
+```
