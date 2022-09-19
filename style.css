@@ -59,6 +59,10 @@ section:not(:last-child) {
   color: #b5aad1;
 }
 
+h2 {
+  margin-bottom: 10px !important;
+}
+
 h4 {
   //
 }
@@ -78,7 +82,12 @@ span {
 
 a {
   text-decoration: none;
-  color: gray;
+  font-weight: 600;
+  color: #fe5c2b91;
+}
+
+a:hover {
+  color: #fe5c2b;
 }
 
 .skills > div {
