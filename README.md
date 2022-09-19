@@ -1,1 +1,1 @@
-https://ZnoGouDj.github.io/rsschool-cv/cv
+https://ZnoGouDj.github.io/rsschool-cv

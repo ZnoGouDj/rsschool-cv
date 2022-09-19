@@ -1,0 +1,61 @@
+* {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1024px;
+  border: 1px solid gray;
+  display: flex;
+  margin: 0 auto;
+}
+
+.contact-info {
+  width: 35%;
+  padding: 30px 40px;
+  border: 2px solid blue;
+}
+
+.main-info {
+  width: 65%;
+  padding: 30px 40px;
+  border: 2px solid red;
+}
+
+.main-info > * > * {
+  margin: 5px 0;
+}
+
+h3 {
+  color: mediumvioletred;
+}
+
+h4 {
+  //
+}
+
+h5 {
+  line-height: 18px;
+}
+
+p {
+  font-size: 0.8em;
+}
+
+span {
+  color: gray;
+  font-size: 0.9em;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+ul {
+  width: 100%;
+}
+
+ul > li {
+  width: 50%;
+  float: left;
+}
