@@ -14,7 +14,7 @@
 
 2013-2017 : **BSTU, Minsk** _Print Technology and Media Communications (Bachelor's degree)_
 
-2019-2020 : **Rolling Scopes School** _Front-end, JavaScript, HTML & CSS_
+2019-2020 : **Rolling Scopes School** _Front-end, JavaScript, HTML &amp; CSS_
 
 ---
 
